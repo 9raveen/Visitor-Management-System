@@ -1,0 +1,99 @@
+/* Body & Background */
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.8)),
+    url("../images/back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1000;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* Formal Main Card Container */
+.main-container {
+  max-width: 700px;
+  margin: 120px auto;
+  padding: 60px 50px;
+  background: rgba(
+    15,
+    15,
+    15,
+    0.6
+  ); /* Subtle solid black with slight transparency */
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Thin soft border */
+  backdrop-filter: blur(4px);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Title Styling */
+.title {
+  font-family: "Bodoni Moda", serif;
+  font-size: 3rem;
+  margin-bottom: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Stylish Buttons */
+.btn-custom {
+  background: linear-gradient(135deg, #e27d27, #b65e14);
+  border: none;
+  padding: 14px 28px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  width: 45%;
+  margin: 10px 2.5%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #f08c3e, #8e3e0d);
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Styling */
+.modal-content {
+  background-color: rgba(20, 20, 20, 0.9);
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Label Styling */
+label {
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
