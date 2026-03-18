@@ -88,7 +88,6 @@ A web-based visitor management system built with PHP and MySQL, designed for ins
 <img width="1903" height="1008" alt="Screenshot 2026-03-18 185918" src="https://github.com/user-attachments/assets/0981a2da-4a32-4787-9a93-aecf398b382f" />
 
 lt="Screenshot 2026-03-18 185629" src="h<img width="307" height="776" alt="Screenshot 2026-03-18 185843" src="https://github.com/user-attachments/assets/5d2d08f9-91b2-4ada-955c-8cf7635f86de" />
-ttps://github.com/user-attachments/assets/8ba6881a-fcb6-4251-b22f-bf4071444e12" />
 ## Setup
 ### Requirements
 
